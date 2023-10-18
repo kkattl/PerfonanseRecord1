@@ -18,7 +18,11 @@ namespace PerfomanceRecord1.View.Command
                 command.Execute();
             }
         }
-       
+        public void ClearCommands()
+        {
+            _commands.Clear();
+        }
+
 
     }
 }

@@ -66,6 +66,7 @@ namespace PerfomanceRecord1.View
         public void ExecuteCommands()
         {
             _invoker.ExecuteCommands();
+            _invoker.ClearCommands();
         }
 
        
